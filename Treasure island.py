@@ -23,12 +23,13 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 
-way = input("Which way do you want to choose to enter left or right?".lower())
+way = input("You came to an entrance and Which way do you want to choose to enter left or right?".lower())
 
 if way == "left":
-    travel = input("How do you want to travel, wait or swim?".lower())
+    travel = input("Good. You've reached the lake, How do you want to travel, wait or swim?".lower())
     if travel == "wait":
-        door = input("Which door do you want to choose Red, Blue or Yellow?".lower())
+        door = input("Finally, you've reached the last part of the game. Which door do you want to choose Red, "
+                     "Blue or Yellow?".lower())
         if door == "yellow":
             print("You won the treasure")
         elif door == "blue":
