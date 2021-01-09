@@ -24,11 +24,11 @@ print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 
 way = input("Which way do you want to choose to enter left or right?".lower())
-travel = input("How do you want to travel, wait or swim?".lower())
-door = input("Which door do you want to choose Red, Blue or Yellow?".lower())
 
 if way == "left":
+    travel = input("How do you want to travel, wait or swim?".lower())
     if travel == "wait":
+        door = input("Which door do you want to choose Red, Blue or Yellow?".lower())
         if door == "yellow":
             print("You won the treasure")
         elif door == "blue":
@@ -41,4 +41,3 @@ if way == "left":
         print("You are attacked by alligators. Game over.")
 else:
     print("You fall into a hole. Game over.")
-
