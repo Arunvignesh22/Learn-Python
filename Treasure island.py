@@ -31,7 +31,7 @@ if way == "left":
         door = input("Finally, you've reached the last part of the game. Which door do you want to choose Red, "
                      "Blue or Yellow?".lower())
         if door == "yellow":
-            print("You won the treasure")
+            print("You found the treasure, Yow won.")
         elif door == "blue":
             print("You are eaten by beasts. Game over.")
         elif door == "red":
